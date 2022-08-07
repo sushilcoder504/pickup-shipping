@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <pickupshipping>
+                <active>1</active>
+                <addressname>Pick Up Address</addressname>
+                <cityname>India, Japan, America, Russia</cityname>
+                <name>Click and Collect</name>
+                <price>20</price>
+                <model>Pickup\Shippings\Model\Carrier\Customshipping</model>
+            </pickupshipping>
+        </carriers>
+    </default>
+</config>
